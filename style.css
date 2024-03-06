@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.navbar {
+  width: 100%;
+  padding: 1rem;
+  background-color: whitesmoke;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.navcenter {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+.profile {
+  width: 2rem;
+  height: 2rem;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid seagreen;
+}
+
+.pages {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+}
+.profile-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo > span {
+  color: seagreen;
+}
+
+.page-link > a:hover {
+  transition: 1s;
+  color: seagreen;
+}
+
+.hero {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 1rem;
+  /* background: #45a0ba; */
+}
+
+.left {
+  padding: 3rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.left > h3 {
+  margin: 1rem 0;
+}
+
+.info {
+  width: 80%;
+}
+.title1 {
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: seagreen;
+}
+.title2 {
+  font-size: 2.5rem;
+  margin: 1rem 0;
+}
+
+.info > p {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.btn-container {
+  width: 100%;
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+.btn {
+  padding: 10px 20px;
+  border: none;
+  background-color: seagreen;
+  color: white;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 1s;
+}
+.btn:hover {
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+.right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.heroImage {
+  width: 80%;
+}
+
+#about {
+  padding: 1rem;
+}
+
+#about > h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+.about-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.leftAbout,
+.rightAbout {
+  padding: 1rem;
+}
+.leftAbout > img {
+  width: 100%;
+}
+
+.rightAbout {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+.rightAbout > p {
+  font-size: 15px;
+  /* border: 1px solid seagreen; */
+  letter-spacing: 1px;
+  line-height: 25px;
+}
+.rightAbout > button {
+  padding: 0;
+}
