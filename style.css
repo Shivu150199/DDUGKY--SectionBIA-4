@@ -9,6 +9,9 @@
   padding: 1rem;
   background-color: whitesmoke;
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  position:sticky;
+  top:0;
+
 }
 
 .navcenter {
@@ -156,4 +159,150 @@ a {
 }
 .rightAbout > button {
   padding: 0;
+}
+
+.contact {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 100px;
+  padding: 1rem;
+}
+.contact > h2 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.contact-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+}
+.contact-left {
+  align-items: center;
+
+  display: flex;
+  flex-direction: column;
+
+  padding: 1rem;
+}
+
+.contact-left > p {
+  text-align: center;
+  color: grey;
+  font-size: 0.8rem;
+  margin-bottom: 15px;
+}
+
+.contact-list {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 1rem;
+}
+
+.contact-right {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.form {
+  background: whitesmoke;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+}
+
+.input-container {
+  flex-direction: column;
+  display: flex;
+  gap: 10px;
+}
+.input-container > input {
+  padding: 0.5rem;
+  border-radius: 2px;
+  border: none;
+  outline: none;
+}
+
+textarea {
+  resize: none;
+  padding: 0.5rem;
+  border-radius: 2px;
+  border: none;
+  outline: none;
+}
+
+.project-img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.project {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 3rem;
+}
+
+.project > h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.card-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+.card {
+  padding: 15px;
+  background-color: wheat;
+  border-radius: 5px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.project-info > p {
+  margin: 15px 0;
+  font-size: 0.8rem;
+}
+
+.project-btn-container {
+  justify-content: space-between;
+  display: flex;
+}
+
+.project-btn-container > .btn {
+  padding: 10px 30px;
+}
+
+footer {
+  padding: 1rem;
+  margin-top: 3rem;
+  background: whitesmoke;
+}
+footer > p > span {
+  color: seagreen;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+html {
+  scroll-behavior:auto;
+  
 }
