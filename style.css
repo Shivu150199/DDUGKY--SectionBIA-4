@@ -306,3 +306,47 @@ html {
   scroll-behavior:auto;
   
 }
+.menu-icon{
+  display: none;
+}
+
+
+@media screen and (max-width:900px) {
+  .hero{
+  grid-template-columns:1fr;
+}
+.about-container{
+  grid-template-columns:1fr;
+}
+.contact-container{
+   grid-template-columns:1fr;
+}
+.card-container{
+  grid-template-columns:1fr 1fr 1fr;
+}
+}
+
+
+@media screen and (max-width:780px) {
+  .pages{
+    display:none;
+  }
+  .profile-container{
+    display:none;
+  }
+
+.menu-icon{
+  display:block;
+}
+
+.card-container{
+  grid-template-columns:1fr 1fr;
+}
+}
+
+
+@media screen and (max-width:500px) {
+  .card-container{
+  grid-template-columns:1fr;
+}
+}
